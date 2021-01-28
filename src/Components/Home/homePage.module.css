@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&family=Yusei+Magic&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  width: 100%;
+  box-sizing: border-box;
+}
+.home_color {
+  padding-top: 2rem;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  /* background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
+} */
+}
+.home {
+  box-sizing: border-box;
+  margin-top: auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0px 20px 80px 0px rgb(151, 150, 150);
+}
+#Personal_text {
+  padding: 3rem;
+  line-height: 1rem;
+  width: 15rem;
+}
+#Personal_text h6 {
+  font-size: 1.3rem;
+}
+#Personal_text h2 {
+  letter-spacing: 0.1cm;
+  line-height: 3rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Staatliches", cursive;
+  font-weight: bolder;
+}
+p {
+  color: #868686;
+}
+.logo {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo a {
+  font-size: 2.5rem;
+}
+#twitter {
+  color: #55d6d6;
+}
+
+#github {
+  color: black;
+}
+#instagram {
+  color: #8a3ab9;
+}
+.logo a :hover {
+  transition: all 0.2s ease;
+  color: #1c9cea;
+}
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.list li a {
+  position: relative;
+  padding-left: 40px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #868686;
+  font-size: 1rem;
+}
+.list li a .icons {
+  position: absolute;
+  left: 0px;
+  top: 65%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #1c9cea;
+}
+/* About me code */
+.about_section {
+  padding-top: 5rem;
+  height: 12rem;
+  margin-bottom: 7rem;
+}
+h2 {
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+}
+.languageIcon {
+  margin-top: 1rem;
+  font-size: 3rem;
+  margin-left: 1rem;
+}

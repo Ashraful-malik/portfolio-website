@@ -1,0 +1,38 @@
+.footer {
+  background: #101522;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Sacramento", cursive;
+}
+p {
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: start;
+}
+.socialMedia_Link {
+  display: flex;
+  align-items: center;
+  font-size: 2.3rem;
+}
+.socialMedia_Link a {
+  color: rgb(250, 250, 250);
+  padding-left: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+  #centerDiv {
+    padding-left: 6rem;
+  }
+}
